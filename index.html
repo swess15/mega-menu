@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <title>Mega Menu</title>
+</head>
+<body>
+    <nav id="overlay">
+        <img src="./images/close.svg" class="close-btn" id="close-menu">
+        <ul>
+            <li>
+                <a href="#">home</a>
+                <span>hurry, get back to the choppa!</span>
+            </li>
+            <li>
+                <a href="#">about us</a>
+                <span>hurry, get back to the choppa!</span>
+            </li>
+            <li>
+                <a href="#">service</a>
+                <span>hurry, get back to the choppa!</span>
+            </li>
+            <li>
+                <a href="#">contact</a>
+                <span>hurry, get back to the choppa!</span>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <a href="#" class="logo">by swess</a>
+
+        <img src="./images/menu.svg" class="menu-btn" id="open-menu">
+    </header>
+
+    <section>
+        <h1>Kingsman 
+            <img src="./images/logo.svg" id="bg-logo">
+        </h1>
+    </section>
+
+    <script>
+    
+        var overlay = document.getElementById('overlay');
+        var closeMenu = document.getElementById('close-menu');
+        var bgLogo = document.getElementById('bg-logo');
+
+        document.getElementById('open-menu').addEventListener('click', function() {
+            overlay.classList.add('show-menu');
+        });
+
+        document.getElementById('open-menu').addEventListener('mouseover', function() {
+            bgLogo.classList.add('img-rotate');
+        });
+    
+        closeMenu.addEventListener('click', function() {
+            overlay.classList.remove('show-menu');
+        });
+
+    </script>
+</body>
+</html>

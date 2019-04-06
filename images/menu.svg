@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.847" height="20" viewBox="0 0 37.847 20">
+  <g id="menu" transform="translate(-134.5 -37.5)">
+    <path id="패스_1" data-name="패스 1" d="M0,0H33.44" transform="translate(134.5 39.5)" fill="none" stroke="#000" stroke-width="4"/>
+    <path id="패스_2" data-name="패스 2" d="M0,0H37.847" transform="translate(134.5 39.5)" fill="none" stroke="#000" stroke-width="4"/>
+    <path id="패스_3" data-name="패스 3" d="M0,0H37.847" transform="translate(134.5 47.5)" fill="none" stroke="#000" stroke-width="4"/>
+    <path id="패스_4" data-name="패스 4" d="M0,0H37.847" transform="translate(134.5 55.5)" fill="none" stroke="#000" stroke-width="4"/>
+  </g>
+</svg>
